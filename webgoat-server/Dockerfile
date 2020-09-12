@@ -15,6 +15,3 @@ EXPOSE 8080
 WORKDIR /home/webgoat
 ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/home/webgoat/webgoat.jar"]
 CMD ["--server.port=8080", "--server.address=0.0.0.0"]
-
-
-	webgoat-server-v8.1.0.jar
